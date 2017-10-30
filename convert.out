@@ -1,0 +1,7 @@
+[XMLAttribute("name")]
+def String Name
+    get
+        return self.strName
+    set
+        if value is None) return:
+        self.strName = value

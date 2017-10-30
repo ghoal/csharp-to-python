@@ -1,0 +1,13 @@
+[XMLAttribute("name")]
+public String Name
+{
+	get
+	{
+		return this.strName;
+	}
+	set
+	{
+		if (value == null) return;
+		this.strName = value;
+	}
+}
